@@ -1,0 +1,57 @@
+/* Estilos gerais do body */
+body {
+    background-color: #f4f4f9; /* Cor de fundo clara */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* altura da tela inteira */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos do Cartão */
+.cartao {
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Estilos do título */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilos da imagem */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Estilos do parágrafo */
+p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Estilos da lista de habilidades */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    color: #444;
+    margin: 5px 0;
+}
